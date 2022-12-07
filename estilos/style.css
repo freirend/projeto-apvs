@@ -17,7 +17,7 @@ body, html{
 
 :root{
     --cor01:#1F386E;
-    --cor02:#F9B74A;
+    --cor02:#FFBE00;
 }
 
 section.secao1{
@@ -92,7 +92,7 @@ section.secao2 > h2, p{
 }
 
 .mvv{
-    background-color: #b0b4bd;
+    background-color: rgb(175, 175, 255);
     width: 100px;
     padding: 5px;
     text-align: center;
