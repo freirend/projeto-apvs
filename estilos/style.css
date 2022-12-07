@@ -37,13 +37,7 @@ section.secao1{
 
 section.secao1 > .chamada{
    text-align: center;
-   margin: 15px 0px;
-   transform: translate(-35px);
-}
-
-div.chamada > h1.hin{
-    text-indent: 190px;
-
+   margin: 27px 0px;
 }
 
 .contato{
@@ -76,7 +70,7 @@ section.secao2 > img{
 }
 
 section.secao2 > h2{
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
 
 section.secao2 > span{
@@ -90,7 +84,7 @@ section.secao2 > span{
 section.secao2 > div.caixa-mvv{
     display: flex;
     justify-content: space-evenly;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
 section.secao2 > h2, p{
@@ -106,6 +100,7 @@ section.secao2 > h2, p{
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.737);
     color: var(--cor01);
+    border: 2px solid var(--cor01);
 }
 
 .mvv > p{
