@@ -46,6 +46,7 @@ section.secao1 > .chamada{
     margin-bottom: 12px;
     font-size: 1.2em;
     color: var(--cor02);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.623);
 }
 
 a{
@@ -138,4 +139,45 @@ section.secao3 > h2{
 
 section.secao3 > ul{
     margin-bottom: 25px;
+}
+
+section.secao4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    color: var(--cor01);
+}
+
+section.secao5{
+    display: flex;
+    background-color: var(--cor01);
+    flex-direction: column;
+    align-items: center;
+}
+
+section.secao5 img{
+    margin-bottom: 25px;
+}
+
+section.secao5 > .fdourado{
+    margin: 25px 0px;
+}
+
+section.secao5 > div.fbranco{
+    margin: 10px 0px;
+}
+
+section.secao5 > .contato{
+    margin-top: 25px;
+}
+
+.fbranco{
+    background-color: white;
+    color: var(--cor01);
+    padding: 15px;
+    border-radius: 10px;
+    width: 290px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.627);
 }
