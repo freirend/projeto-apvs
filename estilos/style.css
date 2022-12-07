@@ -82,7 +82,7 @@ section.secao2 > span{
 
 section.secao2 > div.caixa-mvv{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 25px 0;
 }
 
