@@ -169,7 +169,7 @@ section.secao5 > div.fbranco{
     margin: 10px 0px;
 }
 
-section.secao5 > .contato{
+section.secao5 > a > .contato {
     margin-top: 25px;
 }
 
