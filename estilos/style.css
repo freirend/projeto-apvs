@@ -108,5 +108,34 @@ section.secao2 > h2, p{
 }
 
 section.secao3{
+    display: flex;
+    flex-direction: column;
     background-color: var(--cor01);
+    color: white;
+}
+
+section.secao3 > h2, ul{
+    margin-left: 30px;
+}
+
+.fdourado{
+    background-color: var(--cor02);
+    color: var(--cor01);
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.695);
+}
+
+section.secao3 .fdourado{
+    margin-bottom: 25px;
+}
+
+section.secao3 > h2{
+    text-align: center;
+    margin: 25px;
+}
+
+section.secao3 > ul{
+    margin-bottom: 25px;
 }
