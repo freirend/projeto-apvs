@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+:root{
+    --cor01:#1F386E;
+    --cor02:#F9B74A;
+}
+
+section.secao1{
+    display: flex;
+    background-color: var(--cor01);
+    color: var(--cor02);
+    flex-direction: column;
+    background-image: url(../imagens/head2.png);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 450px;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+section.secao1 > .chamada{
+   text-align: center;
+   margin: 15px 0px;
+   transform: translate(-35px);
+}
+
+div.chamada > h1.hin{
+    text-indent: 190px;
+
+}
+
+.contato{
+    background-color: #425783;
+    padding: 15px 50px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    font-size: 1.2em;
+    color: var(--cor02);
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor02);
+}
+
+.contato:hover{
+    background-color: var(--cor02);
+    color: var(--cor01);
+}
+
+section.secao2{
+    padding: 20px;
+    color: var(--cor01);
+}
+
+section.secao2 > img{
+    display: block;
+    margin: 20px auto;
+}
+
+section.secao2 > h2{
+    margin: 20px 0px;
+}
+
+section.secao2 > span{
+    display: block;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+section.secao2 > div.caixa-mvv{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+section.secao2 > h2, p{
+    text-align: center;
+}
+
+.mvv{
+    background-color: #b0b4bd;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    color: var(--cor02);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.737);
+    color: var(--cor01);
+}
+
+.mvv > p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+section.secao3{
+    background-color: var(--cor01);
+}
