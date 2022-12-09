@@ -40,11 +40,6 @@ section.secao1 > .chamada{
 }
 
 .contato{
-    background-image: url(../imagens/whatsapp.png);
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 300px;
     background-color: #425783;
     padding: 15px;
     border-radius: 10px;
@@ -53,8 +48,12 @@ section.secao1 > .chamada{
     color: var(--cor02);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.623);
     width: 350px;
-    justify-content: center;
-    align-items: center;
+}
+
+.contato i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(34, 255, 34);
 }
 
 a{
