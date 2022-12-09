@@ -40,20 +40,19 @@ section.secao1 > .chamada{
 }
 
 .contato{
-    display: flex;
     background-image: url(../imagens/whatsapp.png);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 300px;
     background-color: #425783;
-    padding: 15px 50px;
+    padding: 15px;
     border-radius: 10px;
     margin-bottom: 12px;
     font-size: 1.2em;
     color: var(--cor02);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.623);
-    width: 300px;
+    width: 350px;
     justify-content: center;
     align-items: center;
 }
