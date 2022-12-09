@@ -200,6 +200,7 @@ section.secao5 > a > .contato {
     background-color: white;
     overflow: hidden;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .slides{
