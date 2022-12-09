@@ -47,7 +47,7 @@ section.secao1 > .chamada{
     font-size: 1.2em;
     color: var(--cor02);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.623);
-    width: 350px;
+    width: 300px;
 }
 
 .contato i{
@@ -289,10 +289,10 @@ section.secao5 > a > .contato {
 }
 
 .fbranco{
-    background-color: white;
-    color: var(--cor01);
-    padding: 15px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
     border-radius: 10px;
-    width: 290px;
+    width: 300px;
 }
 
