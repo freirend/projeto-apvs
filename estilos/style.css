@@ -103,7 +103,7 @@ section.secao4 > h2, p{
 .mvv{
     background-color: white;
     width: 130px;
-    height: 130px;
+    min-height: 130px;
     padding: 5px;
     text-align: center;
     color: var(--cor02);
