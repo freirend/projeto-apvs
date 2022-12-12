@@ -33,7 +33,8 @@ section.secao1{
     color: var(--cor02);
     flex-direction: column;
     background-image: url(../imagens/head2.png);
-    background-size: contain;
+    background-size: fixed;
+    background-size: 480px;
     background-position: top center;
     background-repeat: no-repeat;
     height: 430px;
