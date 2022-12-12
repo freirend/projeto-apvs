@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 510px) {
-    
+@media screen and (min-width: 760px) {
+
+   html > body {
+    background-color: #595f6d;
+   }
+
+    main{
+        max-width: 800px;
+        margin: auto;
+        box-shadow: 1px 1px 10px black;
+    }
+
+    section.secao1{
+        background-position: left center;
+    }
+    section.secao1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .chamada{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;
+    }
+
+    section.secao2{
+        display: flex;
+    }
+
+    .pergunta{
+        max-width: 800px;
+    }
 }

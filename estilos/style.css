@@ -11,6 +11,7 @@
 h1, h2{
     font-family: 'Fira Sans', sans-serif;
     font-size: 2em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.338);
 }
 
 ::-webkit-scrollbar {
@@ -52,6 +53,7 @@ section.secao1 > .chamada{
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 12px;
+    margin-top: 6px;
     font-size: 1.2em;
     color: var(--cor02);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.623);
@@ -77,6 +79,7 @@ a{
 section.secao4{
     padding: 20px;
     color: var(--cor01);
+    background-color: white;
 }
 
 section.secao4 > img{
@@ -168,8 +171,9 @@ section.secao2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    padding: 25px;
     color: var(--cor01);
+    background-color: white;
 }
 
 section.secao2 > img{
