@@ -408,4 +408,5 @@ footer{
     color: var(--cor01);
     margin: auto;
     padding: 5px;
+    font-size: 0.7em;
 }
