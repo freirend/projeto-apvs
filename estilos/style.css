@@ -402,3 +402,10 @@ section.secao7 > i{
     font-size: 150px;
     text-align: center;
 }
+
+footer{
+    background-color: white;
+    color: var(--cor01);
+    margin: auto;
+    padding: 5px;
+}
