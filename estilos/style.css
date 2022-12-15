@@ -111,6 +111,25 @@ section.secao4 > h2, p{
     text-align: center;
 }
 
+.insta{
+    background-color: #425783;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 6px;
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.623);
+    width: 200px;
+    margin: auto;
+}
+
+.insta:hover{
+    text-decoration: underline;
+}
+
+img.cons{
+    border-radius: 5px;
+}
+
 .mvv{
     background-color: white;
     width: 130px;
